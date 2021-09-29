@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(14, 129, 252);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+li {
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.main {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#answers {
+    display:none;
+    list-style: none;
+}
+
+#quiz-title {
+}
+
+#highscores-link {
+
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+#timer-text {
+    display:flex;
+    align-items: center;
+}
+
+#timer-count {
+    margin-right: 10px;
+}
+
+#question {
+    display:none;
+}
+
+#give-up-btn {
+    display:none;
+}
+
+.answer-btn {
+    margin: 20px;
+}
+
+button {
+    width: 200px;
+    background-color: pink;
+    color: black;
+    border-radius: 10px;
+}
+#score-indicator {
+    display: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#score {
+    margin-left: 15px;
+}
+
+#names-section {
+    display:none;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom-hs-btns {
+    display: flex;
+    justify-content: center;
+}

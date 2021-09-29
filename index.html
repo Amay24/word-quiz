@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DA QUIZ</title>
+  </head>
+  <body>
+    <header>
+      <div id="timer">
+        <div id="timer-text">
+          <div id="timer-count">15</div>
+          <p>seconds remaining my dude</p>
+        </div>
+      </div>
+    </header>
+    <main class ="main">
+      <h1 id="quiz-title">Pokemon</h1>
+      <p id="below">
+        Are you a pokemon master?
+      </p>
+      <h3 id="question">
+       What Pokemon evolves from Pichu?
+      </h3>
+      <ul id="answers">
+        <li class="answer-btn"><button id="answer1">Pikachu</button></li>
+        <li class="answer-btn"><button id="answer2">Mewtwo</button></li>
+        <li class="answer-btn"><button id="answer3">Rhydon</button></li>
+        <li class="answer-btn"><button id="answer4">Lucina</button></li>
+      </ul>
+      <h3 id="answer-result"></h3>
+      <div id="score-indicator">
+        <p>Your total score was:</p>
+        <p id="score">0</p>
+        <p>/100</p>
+      </div>
+      <button id="button-always">Start Quiz</button>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
